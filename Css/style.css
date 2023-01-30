@@ -433,10 +433,6 @@ footer .iconsCon .blackGround {
         width: auto;
     }
 
-    header {
-        background-image: url(../img/mobileMian.png);
-    }
-
     .myWork .head h3::after {
         background-color: var(--green-color);
         content: "";
@@ -490,6 +486,10 @@ footer .iconsCon .blackGround {
 
     header {
         height: calc(100vh - 56px);
+    }
+
+    header {
+        background-image: url(../img/mobileMian.png);
     }
 }
 
