@@ -16,6 +16,12 @@ button:focus {
     border: none;
 }
 
+.bigButton:active {
+    background-color: var(--white) !important;
+    color: var(--green-color) !important;
+    outline: 1px solid var(--green-color) !important;
+}
+
 html,body{overflow-x: hidden;}
 
 .stopScroll {
